@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        :root{
+            --primary-color: #3498db;
+            --secondary-color: #2ecc71;
+            --dark-color:#5f0d14;
+            --light-color:#f4f4f4;
+
+            --spacing-small:10px;
+            --spacing-medium:20px;
+            --spacing-large:40px;
+
+            --radius:10px;
+        }
+        h1{
+            font-size: 3rem;
+            color: var(--primary-color)
+        }
+        h2{
+            font-size : 1.5rem;
+            margin: var(--spacing-medium);
+            color: var(--dark-color);
+        }
+        h3{
+            font-size: 1rem;
+        }
+
+        .card{
+            background-color: #5f0d14;
+            padding:var(--spacing-medium);
+            border:2px solid black;
+            border-radius: var(--radius);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            width:300px;
+            color:#f4f4f4
+        }
+
+        a{
+            text-decoration: none;
+            color:var(--primary-color);
+        }
+
+        a:hover{
+            color:var(--secondary-color);
+        }
+
+        a:focus{
+            outline: 3px solid var(--dark-color);
+        }
+
+        button{
+            padding: 10px 20px;
+            background-color: aqua;
+            color:white;
+            border:none;
+            border-radius: var(--radius);
+            cursor:pointer;
+        }
+
+        button:hover{
+            color:var(--secondary-color);
+        }
+        button:focus{
+            outline:5px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        Hello World
+    </div>
+    <h1>HEADING 1</h1>
+    <h2>HEADING 2</h2>
+    <h3>HEADING 3</h3>
+    <a href="http://google.com">Google</a>
+    <br>
+    <button>Click me</button>
+</body>
+</html>
