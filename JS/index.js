@@ -243,5 +243,5 @@
 // let so = arr.sort();
 // console.log(so);
 
-let heading = document.getElementById("title");
-console.log(heading);
+// let heading = document.getElementById("title");
+// console.log(heading);
