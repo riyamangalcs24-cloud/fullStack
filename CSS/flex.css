@@ -1,0 +1,40 @@
+.container{
+    background-color: beige;
+    border:2px solid black;
+    margin: 2px;
+    padding:2px;
+    display: flex;
+    
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around; 
+    height:1500px;
+    justify-content: center;
+    align-items: center;
+    align-content: start;
+}
+
+.box{
+    height:20px;
+    width:200px;
+    border:2px solid  black;
+    margin:2px;
+    padding:2px;
+}
+
+#box1{
+    background-color: rgb(68, 197, 45);
+}
+
+#box2{
+    background-color: blue;
+}
+
+#box3{
+    background-color: coral;
+}
+
+#box4{
+    background-color: darkkhaki;
+}
+
